@@ -1,2 +1,2 @@
-# github.io
-Bootcamp Blog
+# Bootcamp Blog
+By Chandler Ward
