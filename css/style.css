@@ -1,0 +1,19 @@
+/* Keep elements same general size */
+* {
+    box-sizing: border-box;
+}
+
+/* Add background color with padding */
+body {
+    font-family: Arial;
+    padding: 20px;
+    background-color: red;
+}
+
+h2 {
+    color: black;
+}
+
+p {
+    color: purple;
+}
