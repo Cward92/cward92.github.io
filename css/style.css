@@ -7,13 +7,14 @@
 body {
     font-family: Arial;
     padding: 20px;
-    background-color: red;
+    background-color: #f1f1f1;
 }
 
-h2 {
-    color: black;
+/* Header/Title */
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
 }
 
-p {
-    color: purple;
-}
