@@ -20,6 +20,14 @@ body {
     opacity: 0.8;
 }
 
+.header2 {
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    background: #7b9ed381;
+    opacity: 0.8;
+}
+
 nav {
     height: 70px;
     flex: 100%;
@@ -77,6 +85,14 @@ nav {
     padding: 20px;
     margin-top: 20px;
     opacity: 1.0;
+}
+
+.img2{
+    float: left;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    padding: 15px;
 }
 
 /* Hover effect */
