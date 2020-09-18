@@ -11,6 +11,10 @@ body {
     background-color: #fff4ec;
 }
 
+nav {
+    background-color: rgba(148, 173, 219, 0.973);
+}
+
 /* Header/Title */
 .header {
     padding: 15px;
