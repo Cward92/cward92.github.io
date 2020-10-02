@@ -1,62 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="links.html">Links</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">About Me</a></li>
-          </ul>
-    </nav>
-    <div class="header2">
-        <h1>Latest Projects</h1>
-    </div>
-    <div class="row">
-        <div class="leftcolumn">
-            <div class="card">
-                <a href="https://github.com/Cward92/countdownTimer"><img class="img2" src="img/GitHub-Mark-560px.png"></a>
-                <h3>Countdown Timer</h3>
-                <p>Can't wait for Christmas but don't know how to tell time? Click here!</p>
-            </div>
-            <div class="card">
-                <a href="https://github.com/Cward92/digitalClock"><img class="img2" src="img/GitHub-Mark-560px.png"></a>
-                <h3>Digital Clock</h3>
-                <p>Checkout this cool clock!</p>
-            </div>
-            <div class="card">
-                <a href="https://github.com/Cward92/splash-page"><img class="img2" src="img/website-688px.jpg"></a>
-                <h3>Splash Page</h3>
-                <p>Mozilla Assignment to make a Splash Page with HTML</p>
-            </div>
-            <div class="card">
-                <a href="https://github.com/Cward92/silly-story-generator"><img class="img2" src="img/books-260px.jpg"></a>
-                <h3>Silly Story</h3>
-                <p>Mozilla Assignment to create a Silly Story Generator using Javascript</p>
-            </div>
-            <div class="card">
-                <a href="https://github.com/Cward92/Example_Pseudocode"><img class="img2" src="img/documents-900px.jpg"></a>
-                <h3>Pseudocode Exercise</h3>
-                <p>Pseudocoding Assignment to design code for an Ice Making Machine</p>
+
+<body >
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Welcome to My Blog!</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/sites/posts.html">Posts</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Projects
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/sites/links.html">Links</a>
+                    </li>
+                </ul>
             </div>
         </div>
+    </nav>
+    <div class="jumbotron rounded-0 text-left text-white shadow"
+        style="text-shadow: 2px 2px 2px black; background-image: url(/img/milky-way-_1920x1080.jpg); background-size:cover;">
+        <h1 class="mt-3 pt-4 mb-n1 text-uppercase display-4 text-center">Projects</h1>
     </div>
-<!-- bootstrap scripts -->
+    <div class="container">
+        <h2 class="mb-3">Recent Projects:</h2>
+        <div class="card-group">
+            <div class="card">
+                <img class="card-img-top" src="/img/website-688px.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <a href="https://github.com/Cward92/weatherAPI"><h5 class="card-title">Weather API</h5></a>
+                    <p class="card-text">Weather API that I made go check it out!</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 1 day ago</small>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="/img/books-260px.jpg" alt="Card image cap" style="max-width:200px">
+                <div class="card-body">
+                    <a href="https://github.com/Cward92/bouncingBalls"><h5 class="card-title">Bouncing Balls</h5></a>
+                    <p class="card-text">Take control! Eat balls! Leave them with Nothing!</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 1 week ago</small>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="/img/GitHub-Mark-560px.png" alt="Card image cap" style="max-width:200px">
+                <div class="card-body">
+                    <a href="https://github.com/Cward92/mindReader"><h5 class="card-title">Mind Reader</h5></a>
+                    <p class="card-text">Here's a fun game that reads your mind!</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 1 week ago</small>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

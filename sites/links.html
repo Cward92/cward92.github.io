@@ -1,39 +1,98 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
-    <link rel="stylesheet" href="css/style.css">
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="links.html">Links</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">About Me</a></li>
-          </ul>
+
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Welcome to My Blog!</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/sites/posts.html">Posts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/sites/projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/sites/links.html">Links
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <div class="header2">
-        <h1>Useful Links</h1>
+    <div class="jumbotron rounded-0 text-left text-white shadow"
+         style="text-shadow: 2px 2px 2px black; background-image: url(/img/milky-way-_1920x1080.jpg); background-size:cover;">
+         <h1 class="mt-3 pt-4 mb-n1 text-uppercase display-4 text-center">Links</h1>
     </div>
-    <div class="row">
-        <div class="leftcolumn">
-            <div class="card">
-                <a href="https://www.codewars.com/users/Cward92"><img class="img2" src="img/codewars-200px.jpg"></a>
-                <h3>Codewars Page</h3>
-                <p>Link directly to my homepage profile on Codewars</p>
+    <div class="container text-light">
+            <h2 class="display-5">Helpful Links</h2>
+        <div class="row mt-3">
+            <div class="media">
+                <a href="https://www.codewars.com/users/Cward92"><img class="mr-3 img-fluid" src="/img/codewars-200px.jpg" style="max-width:100px"
+                    alt="Generic placeholder image"></a>
+                <div class="media-body">
+                    <h5 class="mt-0 font-weight-light">Codewars Page</h5>
+                    <p class="mx-2 p-2 bg-info font-italic rounded-lg" style="text-shadow: 2px 2px 2px black; box-shadow: 0 0 4px 2px white inset">
+                        Link directly to my homepage profile on Codewars</p>
+                </div>
             </div>
-            <div class="card">
-                <a href="https://github.com/Cward92"><img class="img2" src="img/GitHub-Mark-560px.png"></a>
-                <h3>Github Page</h3>
-                <p>Link directly to my homepage profile on Github</p>
+        </div>
+        <div class="row mt-3">
+            <div class="media">
+                <a href="https://github.com/Cward92"><img class="mr-3 img-fluid" src="/img/GitHub-Mark-560px.png" style="max-width:100px"
+                    alt="Generic placeholder image"></a>
+                <div class="media-body">
+                    <h5 class="mt-0 font-weight-light">Github Page</h5>
+                    <p class="mx-2 p-2 bg-info font-italic rounded-lg" style="text-shadow: 2px 2px 2px black; box-shadow: 0 0 4px 2px white inset">
+                        Link directly to my homepage profile on Github</p>
+                </div>
             </div>
-            <div class="card">
-                <a href="https://www.linkedin.com/"><img class="img2" src="img/linkedin-600px.png"></a>
-                <h3>LinkedIn Page</h3>
-                <p>Link directly to my homepage profile on LinkedIn</p>
+        </div>
+        <div class="row mt-3">
+            <div class="media">
+                <a href="https://www.linkedin.com/"><img class="mr-3 img-fluid" src="/img/linkedin-600px.png" style="max-width:100px"
+                    alt="Generic placeholder image"></a>
+                <div class="media-body">
+                    <h5 class="mt-0 font-weight-light">LinkedIn Page</h5>
+                    <p class="mx-2 p-2 bg-info font-italic rounded-lg" style="text-shadow: 2px 2px 2px black; box-shadow: 0 0 4px 2px white inset">
+                        Link directly to my homepage profile on LinkedIn</p>
+                </div>
             </div>
         </div>
     </div>
+
+    
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
 </html>
