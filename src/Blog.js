@@ -1,8 +1,9 @@
 import React from 'react';
-import Posts from './Components/Posts';
-import './Blog.css';
 import './Blogs.json';
-import Navbar from './Components/Navbar';
+import Navbar from './Components/Navbar.js';
+import Posts from './Components/Posts.js';
+import Projects from './Components/Projects.js';
+import Links from './Components/Links.js';
 
 class Blog extends React.Component {
   constructor(props) {
@@ -16,7 +17,6 @@ class Blog extends React.Component {
 
   setPage(newPage) {
     this.setState({ page: newPage });
-    console.log(this.state.page);
   }
 
   renderNav() {
@@ -35,7 +35,9 @@ class Blog extends React.Component {
       <>
         <Navbar>{this.renderNav()}</Navbar>
 
-        {false ? <Posts /> : (
+        {this.state.page === 'Posts' ? <Posts /> : 
+        this.state.page == 'Projects' ? <Projects /> : 
+        this.state.page == 'Links' ? <Links /> : (
           <>
 
             <header className="masthead">
