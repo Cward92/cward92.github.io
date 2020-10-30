@@ -69,10 +69,10 @@
         {
             "Date": "Oct 9, 2020",
             "Img": "img/jeshoots-com--2vD8lIhdnw-unsplash.jpg",
-            "Title": "",
-            "P1": "",
-            "P2": "",
-            "P3": "",
+            "Title": "Seventh Week Shmeventh Week",
+            "P1": "This week, we worked on developing our understanding of state with the TicTacToe and Calculator Projects",
+            "P2": "So far, it's hard to say whether Javascript is easy to use or not. Since it's my first language, everything seems a bit difficult.",
+            "P3": "But the more that I work with Javascript, the more I'm coming to understand its strengths. It's very flexible, for starters. And code that I write can be made very compact and used in multiple places. With the TicTacToe, it was especially helpful to code in this way. Again, a great week that I learned a lot from.",
             "Heading": "headingSeven",
             "Collapse": "collapseSeven",
             "CollapseTarget": "#collapseSeven"
@@ -80,10 +80,10 @@
         {
             "Date": "Oct 16, 2020",
             "Img": "img/claudio-schwarz-purzlbaum-i25aqE_YUZs-unsplash.jpg",
-            "Title": "",
-            "P1": "",
-            "P2": "",
-            "P3": "",
+            "Title": "A Week of React",
+            "P1": "It's React time!",
+            "P2": "With the newness of React, Javascript suddenly feels a whole lot harder compared to last week. With the tasks we have to do only getting more complex as well, it was bound to trip up some people like it did me.",
+            "P3": "By Thursday I was feeling much better about working with React, but ontop of onboarding several other projects, learning React at the same time certainly did cause no shortage of headaches this week.",
             "Heading": "headingEight",
             "Collapse": "collapseEight",
             "CollapseTarget": "#collapseEight"
@@ -91,10 +91,10 @@
         {
             "Date": "Oct 23, 2020",
             "Img": "img/victoria-priessnitz-ZJD7HUBIlSc-unsplash.jpg",
-            "Title": "",
-            "P1": "",
-            "P2": "",
-            "P3": "",
+            "Title": "Week Nine One One, Help",
+            "P1": "Chaos.",
+            "P2": "Ontop of guest speakers, whiteboard interviews, and our refactoring of our blogs, we also have two projects due, a new one we're starting, and a final portfolio to begin organizing. Compared to the start of the bootcamp, it's probably been our busiest week yet. However, I managed to keep my head above water and finish the week with most of my projects completed.",
+            "P3": "For this week, we learned mostly about react axios and firebase to use in our projects. By far, the most difficult things to grasp have been how to pseudocode effectively, despite our thought processes for how we build programs changing pretty much every week. Overall, a very tough week, but hopefully one of only a few remaining for our camp.",
             "Heading": "headingNine",
             "Collapse": "collapseNine",
             "CollapseTarget": "#collapseNine"
@@ -102,10 +102,10 @@
         {
             "Date": "Oct 30, 2020",
             "Img": "img/wes-hicks-4-EeTnaC1S4-unsplash.jpg",
-            "Title": "",
-            "P1": "",
-            "P2": "",
-            "P3": "",
+            "Title": "Front End Finished",
+            "P1": "After six weeks of front-end, we're finally ready to move on to middle and back-end next week.",
+            "P2": "It's been both a lot of fun and a lot of struggle, but making it through this week is definitely a big confidence boost in my coding progress since the start of this camp.",
+            "P3": "Biggest win this half has probably been doing well and persevering with my CodeWars katas. I was told that I was 3rd highest in the entire bootcamp, which was a big surprise. I had always made it a point to go back and finish our warmups, even if I didn't manage to complete them within the time limit, so it was nice to see our instructors appreciated the work I had put in. This week, we learned hooks in React, but I wasn't able to start on putting them into practice until Thursday. I plan to work on the project this weekend to make sure I'm not falling behind once we start PhP.",
             "Heading": "headingTen",
             "Collapse": "collapseTen",
             "CollapseTarget": "#collapseTen"
